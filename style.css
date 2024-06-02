@@ -5,19 +5,73 @@
 }
 
 body {
-    font-family: roboto;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
     background-color: #1f2937;
     color: white;
-    padding: 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 36px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px 280px;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-text > p {
+    font-size: 18px;
+    /* font-weight: 400; */
+    color: #e5e7eb;
+}
+
+.hero-text button {
+    background-color: #3882f7;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+}
+
+#hero-image {
+    height: 250px;
+    background-color: rgb(117, 117, 117);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-image p {
+    color: white;
+    font-size: 18px;
 }
