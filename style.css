@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: roboto;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 36px;
+}
