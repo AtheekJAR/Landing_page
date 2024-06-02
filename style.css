@@ -10,7 +10,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    color: white;
+    color: #e5e7eb;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -25,14 +25,15 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 36px;
+    font-size: 18px;
 }
 
 .hero {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 100px 280px;
-    gap: 50px;
+    padding: 110px 260px;
+    gap: 100px;
 }
 
 .hero-text {
@@ -64,7 +65,7 @@ ul {
 
 #hero-image {
     height: 250px;
-    background-color: rgb(117, 117, 117);
+    background-color: #808080;
     flex: 1;
     display: flex;
     align-items: center;
@@ -74,4 +75,45 @@ ul {
 #hero-image p {
     color: white;
     font-size: 18px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info h1 {
+    text-align: center;
+    margin: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    /* margin: 0px 300px; */
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+
+.img-container p {
+    font-size: 18px;
+    color: rgb(108, 105, 105);
+    font-weight: 500;
+}
+
+.info-images .img {
+    border: 4px solid #3882f7;
+    border-radius: 15px;
+    height: 170px;
 }
