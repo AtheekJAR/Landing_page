@@ -137,3 +137,34 @@ ul {
     font-weight: 700;
     font-style: normal;
 }
+
+.action-card {
+    margin: -50px 250px 100px;
+    background-color: #3882f7;
+    padding: 50px 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-card h2 {
+    font-size: 24px;
+    color: white; 
+}
+
+.action-card p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.action-card button {
+    background-color: #3882f7;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 8px;
+}
