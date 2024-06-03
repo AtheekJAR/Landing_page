@@ -26,6 +26,7 @@ ul {
     display: flex;
     gap: 36px;
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero {
@@ -116,4 +117,23 @@ ul {
     border: 4px solid #3882f7;
     border-radius: 15px;
     height: 170px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 150px 0px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    padding: 120px 350px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.quote .thor {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
 }
